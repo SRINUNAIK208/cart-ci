@@ -139,13 +139,13 @@ pipeline {
     }
     post {
         always {
-            i am always block
+           echo "i am always block"
         }
         success {
-            i am success
+           echo "i am success"
         }
         failure {
-            i am failure
+           echo "i am failure"
         }
     }
 }
